@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oussama Boucenna - Portfolio</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <!-- <img
+              src="./assets/images/my-avatar.png"
+              alt="Oussama Boucenna"
+              width="80"
+            /> -->
+            <img 
+               class="avatar-box"
+              src="./assets/images/my-pic.png"
+              alt="Oussama Boucenna"
+               width="120"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Oussama Boucenna">Oussama Boucenna</h1>
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/OussamaBoucenna"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/oussama-boucenna-5b60a9268/"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:lo_boucenna@esi.dz" class="contact-link"
+                  >lo_boucenna@esi.dz</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+213542953848" class="contact-link"
+                  >+213 542 953 848</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2003-10-08">October 8, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Algiers, Algeria</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <div class="main-content">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- ABOUT -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+             Final-year Software Engineering student (ESI), passionate about DevOps, full-stack development, and emerging technologies.
+              Experienced in designing end-to-end solutions that combine IoT and Artificial Intelligence.
+              Self-driven, adaptable, a strong problem solver, effective both in team environments and independent work.
+            </p>
+          </section>
+
+          <!-- SERVICES -->
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+                  <p class="service-item-text">
+                    Full-stack development with React, Next.js, Django, Laravel,
+                    Express.js and more.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="Mobile app icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile Apps</h4>
+                  <p class="service-item-text">
+                    Cross-platform mobile development with Flutter and Kotlin.
+                  </p>
+                </div>
+              </li>
+                <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-ci-cd.png"
+                    alt="Desktop app icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Desktop Apps</h4>
+                  <p class="service-item-text">
+                   Desktop development with C# (WPF) and Flutter.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="AI icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+                  <p class="service-item-text">
+                    Deep learning, NLP, computer vision with PyTorch, YOLOv8,
+                    spaCy.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- RESUME -->
+        <article class="resume" data-page="resume">
+          <header class="resume-header">
+            <h2 class="h2 article-title">Resume</h2>
+            <a href="./cv.pdf" download class="download-cv-btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download CV</span>
+            </a>
+          </header>
+
+          <!-- Resume Sub-Navigation -->
+          <nav class="resume-nav">
+            <ul class="resume-nav-list">
+              <li>
+                <button
+                  class="resume-nav-btn active"
+                  data-resume-btn
+                  data-target="education"
+                >
+                  <ion-icon name="book-outline"></ion-icon> Education
+                </button>
+              </li>
+              <li>
+                <button
+                  class="resume-nav-btn"
+                  data-resume-btn
+                  data-target="experience"
+                >
+                  <ion-icon name="briefcase-outline"></ion-icon> Experience
+                </button>
+              </li>
+              <li>
+                <button
+                  class="resume-nav-btn"
+                  data-resume-btn
+                  data-target="hackathons"
+                >
+                  <ion-icon name="trophy-outline"></ion-icon> Hackathons
+                </button>
+              </li>
+              <li></li>
+              <li>
+                <button
+                  class="resume-nav-btn"
+                  data-resume-btn
+                  data-target="skills"
+                >
+                  <ion-icon name="code-slash-outline"></ion-icon> Skills
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- EDUCATION TAB -->
+          <section
+            class="resume-tab timeline active"
+            data-resume-tab="education"
+          >
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  National School of Computer Science (ESI Algiers)
+                </h4>
+                <span>2021 — 2026</span>
+                <p class="timeline-text">
+                  5th year engineering student specializing in AI and Software
+                  Development. Courses: Advanced Databases, Machine Learning,
+                  Data Analysis, Compilation, Cloud
+                  & Virtualization, IoT, Networks and  Distributed Systems.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Baccalauréat - Sciences Expérimentales
+                </h4>
+                <span>2021</span>
+                <p class="timeline-text">
+                  Lycée Ben Abdelmalek Ramden. Grade: 17.45/20 (Excellent).
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- EXPERIENCE TAB -->
+          <section class="resume-tab timeline" data-resume-tab="experience">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                PFE – Hypoglycemia Episode Detection from ECG Signals using AI and Quantum Computing
+              </h4>
+              <span>2025 - 2026</span>
+              <p class="timeline-text">
+                Detection of hypoglycemia episodes through ECG signal analysis using
+                artificial intelligence techniques and a quantum computing–based approach
+                to enhance prediction accuracy and computational efficiency.<br />
+                <em>Stack: Python, Deep Learning, Signal Processing, ECG Analysis, Quantum Computing</em>
+              </p>
+            </li>
+
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Full Stack Developer - Elbiometria Solutions
+                </h4>
+                <span>2024 — present</span>
+                <p class="timeline-text">
+                  Development of asset management and inventory applications
+                  with responsive interfaces, stock tracking features and
+                  automated report generation.<br /><em
+                    >Stack: PHP, MySQL, HTML, CSS, AJAX, Bootstrap</em
+                  >
+                </p>
+              </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Web Developer Intern – ESI
+              </h4>
+              <span>Jul — Aug 2024</span>
+              <p class="timeline-text">
+                Contributed to the development of the ESI official website by implementing
+                new modules, including user authentication enhancements and dashboard
+                optimization to improve overall platform usability.<br />
+                Set up a local deployment environment to test and validate new releases.<br />
+                <em>Stack: React.js, Django, MySQL, Linux</em>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Flutter Developer Intern – IT Department, BDL
+              </h4>
+              <span>Aug — Sep 2024</span>
+              <p class="timeline-text">
+                Designed and developed a complete Inventory Management application aimed at
+                centralizing stock tracking, streamlining material management, and ensuring
+                secure user access through role-based authentication.<br />
+                <em>Stack: Flutter, Dart, Express.js, MySQL</em>
+              </p>
+            </li>
+
+            </ol>
+          </section>
+
+          <!-- HACKATHONS TAB -->
+          <section class="resume-tab timeline" data-resume-tab="hackathons">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Hackathons & Activities</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AMANA - DFC Hackathon</h4>
+                <span>Djezzy Club & Micro Club USTHB</span>
+                <p class="timeline-text">
+                  Secure donation platform via smart contracts with blockchain
+                  transparency, real-time tracking and transaction
+                  visualization.<br /><em
+                    >Stack: React, Django, SQLite, Blockchain</em
+                  >
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Hug It - Hack In 6</h4>
+                <span>Club Scientifique de l'ESI (CSE)</span>
+                <p class="timeline-text">
+                  Mental health support platform with session booking and secure
+                  community space for sharing anonymous stories.<br /><em
+                    >Stack: React, Express.js, MySQL</em
+                  >
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bottle Counting - AUP Algeria
+                </h4>
+                <span>Club ETIC</span>
+                <p class="timeline-text">
+                  Automatic bottle detection and counting system on retail
+                  shelves with precise inventory report generation.<br /><em
+                    >Stack: YOLOv8, Python, OpenCV</em
+                  >
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- SKILLS TAB -->
+          <section class="resume-tab skill" data-resume-tab="skills">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Technical Skills</h3>
+            </div>
+
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h4 class="skill-category-title">
+                  <ion-icon name="code-slash-outline"></ion-icon> Languages
+                </h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">TypeScript</span>
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">Kotlin</span>
+                  <span class="skill-tag">PHP</span>
+                  <span class="skill-tag">Java</span>
+                  <span class="skill-tag">Dart</span>
+                  <span class="skill-tag">C#</span>
+
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="skill-category-title">
+                  <ion-icon name="layers-outline"></ion-icon> Frameworks
+                </h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">React</span>
+                  <span class="skill-tag">Flutter</span>
+                  <span class="skill-tag">Express.js</span>
+                  <span class="skill-tag">NestJS</span>
+                  <span class="skill-tag">Django</span>
+                  <span class="skill-tag">Laravel</span>
+                  <span class="skill-tag">WPF</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="skill-category-title">
+                  <ion-icon name="hardware-chip-outline"></ion-icon> AI / ML /
+                  Vision
+                </h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">PyTorch</span>
+                  <span class="skill-tag">scikit-learn</span>
+                  <span class="skill-tag">YOLOv8</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="skill-category-title">
+                  <ion-icon name="cloud-outline"></ion-icon> Cloud & DevOps
+                </h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">Jenkins</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">CI/CD</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="skill-category-title">
+                  <ion-icon name="server-outline"></ion-icon> Databases
+                </h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">PostgreSQL</span>
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">Firebase</span>
+                  <span class="skill-tag">Elasticsearch</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!-- PORTFOLIO -->
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Mobile Apps</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Desktop Applications</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Mobile Apps</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- IRCHAD -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#" onclick="openProjectModal('irchad'); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/irchad/1.png"
+                      alt="IRCHAD"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">IRCHAD</h3>
+                </a>
+              </li>
+
+              <!-- Parc Auto -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile apps"
+              >
+                <a
+                  href="#"
+                  onclick="openProjectModal('texy'); return false;"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/texy/1.jpg"
+                      alt="Texy"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Texy</h3>
+                </a>
+              </li>
+
+              <!-- AMANA -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#" onclick="openProjectModal('filahatech'); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/filahatech/1.png"
+                      alt="FilahaTech"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">FilahaTech</h3>
+                </a>
+              </li>
+
+              <!-- Crypto Platform -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#" onclick="openProjectModal('exosky'); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/exosky/1.png"
+                      alt="Exosky"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Exosky</h3>
+                </a>
+              </li>
+
+              <!-- CAREO -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#" onclick="openProjectModal('7ela9i'); return false;">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/7ela9i/1.png"
+                      alt="7ela9i"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">7ela9i</h3>
+                </a>
+              </li>
+
+              <!-- Rahma -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="desktop applications"
+              >
+                <a
+                  href="#"
+                  onclick="openProjectModal('rahma'); return false;"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/rahma/1.png"
+                      alt="Rahma"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Rahma</h3>
+                </a>
+              </li>
+
+
+               <!-- DocCare -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile apps"
+              >
+                <a
+                  href="#"
+                  onclick="openProjectModal('doccare'); return false;"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./images/doccare/1.png"
+                      alt="DocCare"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">DocCare</h3>
+                </a>
+              </li>
+
+
+         
+              
+            </ul>
+          </section>
+        </article>
+
+        <!-- CONTACT -->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- PROJECT MODAL -->
+    <div class="project-modal" id="projectModal">
+      <div class="project-modal-content">
+        <button class="modal-close" onclick="closeProjectModal()">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <div class="modal-header">
+          <h2 id="modalTitle"></h2>
+          <span class="modal-category" id="modalCategory"></span>
+        </div>
+        <div class="modal-body">
+          <!-- Image Gallery -->
+          <div class="modal-gallery">
+            <div class="gallery-main">
+              <img
+                id="galleryMainImg"
+                src=""
+                alt=""
+                class="gallery-main-img"
+                onclick="openFullscreen()"
+              />
+              <button class="gallery-nav gallery-prev" onclick="prevImage()">
+                <ion-icon name="chevron-back"></ion-icon>
+              </button>
+              <button class="gallery-nav gallery-next" onclick="nextImage()">
+                <ion-icon name="chevron-forward"></ion-icon>
+              </button>
+            </div>
+            <div class="gallery-thumbs" id="galleryThumbs"></div>
+            <div class="gallery-counter" id="galleryCounter"></div>
+          </div>
+          <div class="modal-details">
+            <p id="modalDescription"></p>
+            <div class="modal-tech">
+              <h4>Technologies:</h4>
+              <ul id="modalTech"></ul>
+            </div>
+            <div class="modal-features">
+              <h4>Key Features:</h4>
+              <ul id="modalFeatures"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a
+            id="modalGithub"
+            href="#"
+            target="_blank"
+            class="modal-btn github-btn"
+          >
+            <ion-icon name="logo-github"></ion-icon> GitHub
+          </a>
+          <a
+            id="modalDemo"
+            href="#"
+            target="_blank"
+            class="modal-btn demo-btn"
+            style="display: none"
+          >
+            <ion-icon name="open-outline"></ion-icon> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fullscreen Image Viewer -->
+    <div class="fullscreen-viewer" id="fullscreenViewer">
+      <button class="fullscreen-close" onclick="closeFullscreen()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+      <button
+        class="fullscreen-nav fullscreen-prev"
+        onclick="prevImage(); updateFullscreen()"
+      >
+        <ion-icon name="chevron-back"></ion-icon>
+      </button>
+      <img id="fullscreenImg" src="" alt="" class="fullscreen-img" />
+      <button
+        class="fullscreen-nav fullscreen-next"
+        onclick="nextImage(); updateFullscreen()"
+      >
+        <ion-icon name="chevron-forward"></ion-icon>
+      </button>
+    </div>
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/portfolio.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
