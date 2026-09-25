@@ -39,9 +39,11 @@ const projectsData = {
     description:
       "Indoor navigation system for visually impaired people: mapping, real-time localization and obstacle detection.",
     tech: [
+      "Raspberry Pi",
       "Kotlin",
       "Next.js",
       "Express.js",
+      "WebSocket",
       "PostgreSQL",
       "YOLOv8",
       "OCR",
@@ -56,6 +58,8 @@ const projectsData = {
       "Real-time navigation with voice/haptic guidance",
       "Obstacle detection via ultrasonic sensors and YOLOv8",
       "IoT integration with Arduino, ESP32, BLE",
+      "Emergency assistance and real-time tracking",
+      "Real-time geolocation streaming (WebSocket) between sensors, backend and tracking interface",
     ],
     github: "https://github.com/Orama4",
   },
@@ -128,15 +132,16 @@ const projectsData = {
             "Agricultural platform that provides satellite-based parcel monitoring, subscription-based services, and a multi-role marketplace for farmers, suppliers, and service providers.",
         tech: [
             "React.js",
-            "Node.js & Express ",
+            "NestJS & Node.js",
             "MySQL",
+            "Prisma",
             "Satellite API Integration",
         ],
         features: [
             "Parcel monitoring using satellite data",
             "Subscription system to access satellite services",
             "Multi-role platform: Admin, Farmer, Supplier",
-            "Marketplace for agricultural products and services",
+            "Marketplace for agricultural products and services, with a points system for publishing listings",
             "User management and role-based access control"
         ],
         demo: "https://filahatech.dz", // ou lien Drive pour vidéo
